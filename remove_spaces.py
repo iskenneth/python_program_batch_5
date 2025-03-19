@@ -2,6 +2,7 @@
 while True:
     try:
         fullname = input ("Enter your Full Name WITH SPACES: ")
+        print("Output:")
     except ValueError:
         print("Error 404!!")
 #Remove spaces at the beginning.
