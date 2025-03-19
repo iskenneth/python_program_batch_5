@@ -3,6 +3,7 @@ while True:
     try:
         pagkakakilanlan = input("Enter your full name: ")
         #Print the result.
-        print ("Output: ", pagkakakilanlan.lower())            
+        print ("Output: ", pagkakakilanlan.lower())    
+        break        
     except ValueError:
         print("..............")
