@@ -3,7 +3,8 @@ while True:
     try:
         fullname = input ("Enter your Full Name WITH SPACES:")
         #Print the result.
-        print("Output:" , fullname.lstrip())#Remove spaces at the beginning.
+        print("Output:" , fullname.lstrip()) #Remove spaces at the beginning.
+        break
     except ValueError:
         print("Error 404!!")
 
