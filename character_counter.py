@@ -2,7 +2,7 @@
 while True:
     try:
         pangalan = input("Enter your Full name:")
+        #Print the result.
+        print("Count: ", len(pangalan)) #Count the total number of characters, including spaces.
     except ValueError:
         print("Wrong character")
-#Count the total number of characters, including spaces.
-#Print the result.
