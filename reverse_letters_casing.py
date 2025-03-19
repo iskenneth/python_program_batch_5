@@ -4,5 +4,6 @@ while True:
         pangalan = input("Enter your Full name (in any casing you want: ")
         #Print the result.
         print("Output: ", pangalan.swapcase())#Change uppercase letters to lowercase and vice versa.
+        break
     except ValueError:
         print("hindi pwede yan ngaaaa!!!!")
