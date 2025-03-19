@@ -2,7 +2,7 @@
 while True:
     try:
         pagkakakilanlan = input("Enter your full name: ")
+        #Print the result.
+        print ("Output: ", pagkakakilanlan.lower())            
     except ValueError:
         print("..............")
-#Convert all letters to lowercase.
-#Print the result.
